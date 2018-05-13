@@ -1,0 +1,82 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:visibility="visible"
+    tools:context="com.example.hunain.emergencydriverapp.RegisterFormFragment">
+
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+
+
+            android:id="@+id/firstName"
+            style="@style/NameEditTextStyle"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp"
+            android:hint="@string/firstName" />
+
+        <EditText
+            android:id="@+id/lastName"
+            style="@style/NameEditTextStyle"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="16dp"
+            android:hint="@string/lastName" />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/PhoneNumber"
+        style="@style/editTextStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/name"
+        android:hint="@string/userPhoneNumber" />
+
+    <EditText
+        android:id="@+id/Password"
+        style="@style/editTextStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/PhoneNumber"
+        android:hint="@string/password" />
+    <Spinner
+        android:id="@+id/department_spinner"
+       android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Password"
+
+
+
+        />
+
+    <EditText
+        android:id="@+id/city"
+        style="@style/editTextStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/department_spinner"
+        android:layout_marginTop="16dp"
+        android:text="@string/city" />
+
+    <EditText
+        style="@style/editTextStyle"
+        android:layout_width="match_parent"
+        android:id="@+id/licenceNumber"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/city"
+        android:text="@string/licenseNumber" />
+
+
+
+
+</RelativeLayout>

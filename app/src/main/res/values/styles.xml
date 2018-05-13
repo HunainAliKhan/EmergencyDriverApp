@@ -1,0 +1,65 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+    </style>
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+
+    </style>
+
+    <style name="buttonBorder">
+        <item name="android:color">@color/red</item>
+        <item name="android:background">@drawable/button_border</item>
+        <item name="android:layout_margin">16dp</item>
+
+    </style>
+
+    <style name="EditTextBorder">
+        <item name="android:background">@drawable/edit_text_borders</item>
+
+        <item name="android:padding">10dp</item>
+    </style>
+
+    <style name="buttonStyle">
+        <item name="android:background">@color/teal</item>
+        <item name="android:text">@string/Next</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:gravity">start</item>
+        <item name="android:padding">@dimen/marginandPad</item>
+        <item name="android:layout_margin">@dimen/marginandPad</item>
+
+
+
+    </style>
+    <style name="NameEditTextStyle">
+
+        <item name="android:padding">10dp</item>
+
+        <item name="android:background">@drawable/edit_text_borders</item>
+    </style>
+    <style name="editTextStyle">
+        <item name="android:layout_marginLeft">@dimen/marginandPad</item>
+        <item name="android:layout_marginRight">@dimen/marginandPad</item>
+        <item name="android:background">@drawable/edit_text_borders</item>
+        <item name="android:padding">10dp</item>
+    </style>
+
+    <style name="Margins">
+        <item name="android:layout_marginLeft">@dimen/marginandPad</item>
+        <item name="android:layout_marginRight">@dimen/marginandPad</item>
+    </style>
+
+
+    <style name="AppDialogBox" parent="Theme.AppCompat.Dialog">
+        <item name="android:windowNoTitle">true</item>
+        ...
+    </style>
+
+</resources>

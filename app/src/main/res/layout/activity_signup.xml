@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.hunain.emergencydriverapp.SignupActivity"
+    android:fillViewport="true"
+
+
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:fontFamily="sans-serif"
+            android:text="@string/Kidmat"
+           android:padding="@dimen/marginandPad"
+            android:textColor="@color/white"
+            android:background="@color/black"
+
+            />
+
+
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/viewPager"
+            android:layout_width="match_parent"
+            android:layout_height="190dp"
+            android:layout_margin="16dp"
+
+
+            >
+
+
+        </android.support.v4.view.ViewPager>
+
+
+        <LinearLayout
+        android:id="@+id/slideLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+            android:padding="@dimen/marginandPad"
+        android:gravity="center_vertical|center_horizontal"
+        android:orientation="horizontal"
+            android:layout_marginBottom="@dimen/marginandPad"
+            android:layout_marginLeft="@dimen/marginandPad"
+            android:layout_marginRight="@dimen/marginandPad"
+        ></LinearLayout>
+
+
+        <EditText
+            style="@style/EditTextBorder"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/marginandPad"
+            android:layout_marginRight="@dimen/marginandPad"
+            android:id="@+id/email"
+            android:hint="@string/email" />
+
+
+        <LinearLayout
+            android:id="@+id/registerForm"
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <LinearLayout
+                android:id="@+id/name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+
+                android:orientation="horizontal">
+
+                <EditText
+
+                    android:id="@+id/firstName"
+                    style="@style/NameEditTextStyle"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="1dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_weight="1"
+                    android:hint="@string/firstName" />
+
+                <EditText
+                    android:id="@+id/lastName"
+                    style="@style/NameEditTextStyle"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="1dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_weight="1"
+                    android:hint="@string/lastName" />
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/PhoneNumber"
+                style="@style/editTextStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="1dp"
+
+                android:hint="@string/userPhoneNumber" />
+
+            <EditText
+                android:id="@+id/password"
+                style="@style/editTextStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="1dp"
+                android:hint="@string/password"
+                android:inputType="textPassword"/>
+
+            <Spinner
+                android:id="@+id/department_spinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="1dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:entries="@array/Department"
+
+                />
+
+            <EditText
+                android:id="@+id/city"
+                style="@style/editTextStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="1dp"
+                android:layout_marginTop="16dp"
+                android:text="@string/city" />
+
+            <EditText
+                android:id="@+id/licenceNumber"
+                style="@style/editTextStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="1dp"
+                android:text="@string/licenseNumber" />
+
+
+        </LinearLayout>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:id="@+id/Next"
+
+            style="@style/buttonStyle"/>
+
+
+
+    </LinearLayout>
+
+
+
+
+
+
+</ScrollView>

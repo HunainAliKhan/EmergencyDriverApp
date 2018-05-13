@@ -1,0 +1,107 @@
+{
+  "project_info": {
+    "project_number": "227030711897",
+    "firebase_url": "https://emergency-authentication.firebaseio.com",
+    "project_id": "emergency-authentication",
+    "storage_bucket": "emergency-authentication.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:227030711897:android:3abaaeeaf3c538f5",
+        "android_client_info": {
+          "package_name": "com.example.hunain.emergencyapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "227030711897-o7sg522avden7drtfhgcflpf05fevqnh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.hunain.emergencyapplication",
+            "certificate_hash": "dd528bddf450c8acaf2a6576f10c13ccc5d22b83"
+          }
+        },
+        {
+          "client_id": "227030711897-urnf3p6imrsdg3rorsh6034ugh9h0j66.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.hunain.emergencyapplication",
+            "certificate_hash": "b07e1f5f04a042ee96c92707195ae62d2c93a9e7"
+          }
+        },
+        {
+          "client_id": "227030711897-0jpe3t90nuoss58ood9k5a1eblt11t9p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBhQMUk0T7DXMTLcx_Oq356bej_9hzLr4w"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "227030711897-0jpe3t90nuoss58ood9k5a1eblt11t9p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:227030711897:android:5f17c9835bcdc44c",
+        "android_client_info": {
+          "package_name": "com.example.hunain.emergencydriverapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "227030711897-9qi3vs7vjfcb70rr8do4so0qvomp58df.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.hunain.emergencydriverapp",
+            "certificate_hash": "b07e1f5f04a042ee96c92707195ae62d2c93a9e7"
+          }
+        },
+        {
+          "client_id": "227030711897-0jpe3t90nuoss58ood9k5a1eblt11t9p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBhQMUk0T7DXMTLcx_Oq356bej_9hzLr4w"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "227030711897-0jpe3t90nuoss58ood9k5a1eblt11t9p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

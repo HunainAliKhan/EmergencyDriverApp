@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="width">150</dimen>
+    <dimen name="marginandPad">16dp</dimen>
+    <dimen name="marginPadBelow">10dp</dimen>
+</resources>

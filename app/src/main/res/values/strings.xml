@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">Emergency Driver App</string>
+    <string name="OpenDriverMap">Open Driver Map</string>
+    <string name="title_activity_driver_maps">Map</string>
+    <string name="Driver">Go for Map</string>
+    <string name="history">HISTORY</string>
+    <string name="help">HELP</string>
+    <string name="settings">SETTINGS</string>
+    <string name="signOut">SIGN OUT</string>
+    <!-- TODO: Remove or change this placeholder text -->
+
+    <string name="userName">User Name</string>
+    <string name="problem">Problem</string>
+    <string name="DriverRating"></string>
+
+
+    <string name="accept">Accept</string>
+    <string name="reject">Reject</string>
+    <string name="signin">SIGN IN</string>
+    <string name="register">REGISTER</string>
+    <string name="login">LOGIN</string>
+    <string name="email">Email</string>
+    <string name="Next">Next</string>
+    <string name="firstName">First Name</string>
+    <string name="lastName">Last Name</string>
+    <string name="userPhoneNumber">Phone Number</string>
+    <string name="password">Password</string>
+    <string name="selectDepartment">Select Department</string>
+    <string name="city">City</string>
+    <string name="licenseNumber">License Number</string>
+    <string name="TitleImages">Title Images</string>
+    <string name="Kidmat">K I D M A T</string>
+    <string name="google_map_directionApi">AIzaSyAOraCkFeLVtrcJSeDK4wW6wFq9MEuU3CQ</string>
+    <string name="GPSalertDialog">GPS Alert Dilog</string>
+
+    <string name="location">Location</string>
+    <string name="distance">distance</string>
+    <string name="full_name">Name</string>
+    <string name="department_name">Department</string>
+
+
+</resources>

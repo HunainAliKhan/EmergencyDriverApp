@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="Department">
+        <item>Select Department</item>
+        <item>Fire Fighter</item>
+        <item>Police</item>
+        <item>Ambulance</item>
+
+    </string-array>
+</resources>
