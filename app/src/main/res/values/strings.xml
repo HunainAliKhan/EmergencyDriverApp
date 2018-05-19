@@ -37,6 +37,8 @@
     <string name="distance">distance</string>
     <string name="full_name">Name</string>
     <string name="department_name">Department</string>
-
-
+    <string name="rate_your_experience">Rate your User</string>
+    <string name="share_your_experience_or_any_suggestion">Share your experience or Any issue..</string>
+    <string name="rate_the_driving">Rate Your Experience.</string>
+    <string name="submit">Submit</string>
 </resources>

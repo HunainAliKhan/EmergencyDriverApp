@@ -9,5 +9,6 @@
     <color name="white">#fff</color>
     <color name="mahroon">#512DA8</color>
     <color name="teal">#00796B</color>
+    <color name="topBar">#ef3131</color>
 
 </resources>
